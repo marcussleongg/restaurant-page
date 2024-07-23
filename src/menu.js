@@ -1,7 +1,8 @@
 export default function menu() {
     const div = document.querySelector('#content');
     const appetizers = document.createElement('div');
-    appetizers.innerHTML = 'Appetizers';
+    const appetizerstitle = document.createElement('p');
+    appetizerstitle.innerHTML = 'Appetizers';
     const wmfries = document.createElement('div');
     const wmfriestitle = document.createElement('h1');
     wmfriestitle.innerHTML = 'Watermelon Fries';
@@ -16,10 +17,12 @@ export default function menu() {
     wmsaladdesc.innerHTML = 'Fresh salad of lettuce, spring greens, onions, and watermelon';
     wmsalad.appendChild(wmsaladtitle);
     wmsalad.appendChild(wmsaladdesc);
+    appetizers.appendChild(appetizerstitle);
     appetizers.appendChild(wmfries);
     appetizers.appendChild(wmsalad);
     const mains = document.createElement('div');
-    mains.innerHTML = 'Mains';
+    const mainstitle = document.createElement('p');
+    mainstitle.innerHTML = 'Mains';
     const wmsteak = document.createElement('div');
     const wmsteaktitle = document.createElement('h1');
     wmsteaktitle.innerHTML = 'Watermelon Steak';
@@ -41,11 +44,13 @@ export default function menu() {
     wmpastadesc.innerHTML = 'Handmade pasta with unqiue tomato-watermelon sauce';
     wmpasta.appendChild(wmpastatitle);
     wmpasta.appendChild(wmpastadesc);
+    mains.appendChild(mainstitle);
     mains.appendChild(wmsteak);
     mains.appendChild(wmburger);
     mains.appendChild(wmpasta);
     const dessert = document.createElement('div');
-    dessert.innerHTML = 'Desserts';
+    const desserttitle = document.createElement('p');
+    desserttitle.innerHTML = 'Desserts';
     const wmpie = document.createElement('div');
     const wmpietitle = document.createElement('h1');
     wmpietitle.innerHTML = 'Watermelon Pie';
@@ -60,6 +65,7 @@ export default function menu() {
     wmicecreamdesc.innerHTML = 'Sweet watermelon flavored icecream';
     wmicecream.appendChild(wmicecreamtitle);
     wmicecream.appendChild(wmicecreamdesc);
+    dessert.appendChild(desserttitle);
     dessert.appendChild(wmpie);
     dessert.appendChild(wmicecream);
     div.appendChild(appetizers);
