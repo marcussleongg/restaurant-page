@@ -35,7 +35,7 @@ export default function loadup() {
     addy.innerHTML = '123 Water Drive, Melonville, WMLand';
     location.appendChild(locationtitle);
     location.appendChild(addy);
-    image.src = "../src/images/watermelon.jpg";
+    image.src = "../src/images/watermelonlogo.png";
     image.alt = "image of a watermelon";
     heading.innerHTML = "The Watermelon Restaurant";
     text.innerHTML = "The watermelon restaurant hosts a menu of dishes focused on the natural taste of watermelon, and showcases the creativity of our chefs in making many different dishes from the fruit.";

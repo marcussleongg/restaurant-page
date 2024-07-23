@@ -1,8 +1,9 @@
 export default function menu() {
     const div = document.querySelector('#content');
     const appetizers = document.createElement('div');
-    const appetizerstitle = document.createElement('p');
+    const appetizerstitle = document.createElement('div');
     appetizerstitle.innerHTML = 'Appetizers';
+    appetizerstitle.setAttribute('id', 'menuTitle');
     const wmfries = document.createElement('div');
     const wmfriestitle = document.createElement('h1');
     wmfriestitle.innerHTML = 'Watermelon Fries';
@@ -17,12 +18,12 @@ export default function menu() {
     wmsaladdesc.innerHTML = 'Fresh salad of lettuce, spring greens, onions, and watermelon';
     wmsalad.appendChild(wmsaladtitle);
     wmsalad.appendChild(wmsaladdesc);
-    appetizers.appendChild(appetizerstitle);
     appetizers.appendChild(wmfries);
     appetizers.appendChild(wmsalad);
     const mains = document.createElement('div');
-    const mainstitle = document.createElement('p');
+    const mainstitle = document.createElement('div');
     mainstitle.innerHTML = 'Mains';
+    mainstitle.setAttribute('id', 'menuTitle');
     const wmsteak = document.createElement('div');
     const wmsteaktitle = document.createElement('h1');
     wmsteaktitle.innerHTML = 'Watermelon Steak';
@@ -44,13 +45,13 @@ export default function menu() {
     wmpastadesc.innerHTML = 'Handmade pasta with unqiue tomato-watermelon sauce';
     wmpasta.appendChild(wmpastatitle);
     wmpasta.appendChild(wmpastadesc);
-    mains.appendChild(mainstitle);
     mains.appendChild(wmsteak);
     mains.appendChild(wmburger);
     mains.appendChild(wmpasta);
     const dessert = document.createElement('div');
-    const desserttitle = document.createElement('p');
+    const desserttitle = document.createElement('div');
     desserttitle.innerHTML = 'Desserts';
+    desserttitle.setAttribute('id', 'menuTitle');
     const wmpie = document.createElement('div');
     const wmpietitle = document.createElement('h1');
     wmpietitle.innerHTML = 'Watermelon Pie';
@@ -65,10 +66,12 @@ export default function menu() {
     wmicecreamdesc.innerHTML = 'Sweet watermelon flavored icecream';
     wmicecream.appendChild(wmicecreamtitle);
     wmicecream.appendChild(wmicecreamdesc);
-    dessert.appendChild(desserttitle);
     dessert.appendChild(wmpie);
     dessert.appendChild(wmicecream);
+    div.appendChild(appetizerstitle);
     div.appendChild(appetizers);
+    div.appendChild(mainstitle);
     div.appendChild(mains);
+    div.appendChild(desserttitle);
     div.appendChild(dessert);
 }

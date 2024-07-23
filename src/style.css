@@ -34,6 +34,17 @@ img {
     margin: 5%;
 }
 
+#menuTitle {
+    font-size: 2.5em;
+    font-weight: bold;
+    background-color: rgb(206, 81, 81);
+}
+
+#menuTitle + div {
+    position: relative;
+    top: -12%;
+}
+
 #attribution {
     display: flex;
     justify-content: space-around;
