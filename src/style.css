@@ -79,13 +79,13 @@ header {
 
 header button {
     font-size: 3em;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     background-color: rgba(0, 0, 0, 0);
     outline: 2px white solid;
 }
 
-#home:hover, #menu:hover, #about:hover {
+#home:not([disabled]):hover, #menu:not([disabled]):hover, #about:not([disabled]):hover {
     cursor: pointer;
     background-color: white;
 }

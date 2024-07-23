@@ -1,5 +1,3 @@
-console.log('is this working?');
-
 import loadup from './initial-loadup.js';
 import menu from './menu.js';
 import about from './about.js';

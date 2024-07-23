@@ -44,4 +44,10 @@ export default function loadup() {
     div.appendChild(text);
     div.appendChild(opening);
     div.appendChild(location);
+    const homeBtn = document.getElementById('home');
+    const menuBtn = document.getElementById('menu');
+    const aboutBtn = document.getElementById('about');
+    homeBtn.disabled = true;
+    menuBtn.disabled = false;
+    aboutBtn.disabled = false;
 }

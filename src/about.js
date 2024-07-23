@@ -22,4 +22,10 @@ export default function about() {
     history.appendChild(historytext);
     div.appendChild(contact);
     div.appendChild(history);
+    const homeBtn = document.getElementById('home');
+    const menuBtn = document.getElementById('menu');
+    const aboutBtn = document.getElementById('about');
+    homeBtn.disabled = false;
+    menuBtn.disabled = false;
+    aboutBtn.disabled = true;
 }

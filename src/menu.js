@@ -74,4 +74,10 @@ export default function menu() {
     div.appendChild(mains);
     div.appendChild(desserttitle);
     div.appendChild(dessert);
+    const homeBtn = document.getElementById('home');
+    const menuBtn = document.getElementById('menu');
+    const aboutBtn = document.getElementById('about');
+    homeBtn.disabled = false;
+    menuBtn.disabled = true;
+    aboutBtn.disabled = false;
 }
