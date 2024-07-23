@@ -24,6 +24,16 @@ img {
     width: 100px;
 }
 
+#content > h1 {
+    font-size: 3em;
+}
+
+#content > div {
+    outline: 5px rgb(190, 24, 24) solid; border-radius: 30%;
+    padding: 3% 10%;
+    margin: 5%;
+}
+
 #attribution {
     display: flex;
     justify-content: space-around;

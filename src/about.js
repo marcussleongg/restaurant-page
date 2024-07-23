@@ -5,7 +5,7 @@ export default function about() {
     const contacttext = document.createElement('p');
     const contactphone = document.createElement('p');
     const contactemail = document.createElement('p');
-    contacttext.innerHTML = 'We can be contacted via phone or email';
+    contacttext.innerHTML = 'We can be contacted via phone during opening hours or via email';
     contactphone.innerHTML = '+1 555 555 555';
     contactemail.innerHTML = 'thewatermelonrestaurant@watermelonmail.com';
     contact.appendChild(contacttext);

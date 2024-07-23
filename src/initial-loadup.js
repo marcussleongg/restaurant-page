@@ -6,7 +6,7 @@ export default function loadup() {
     const opening = document.createElement('div');
     const location = document.createElement('div');
     const openingtitle = document.createElement('h1');
-    openingtitle.innerHTML = 'Opening hours';
+    openingtitle.innerHTML = 'Opening Hours';
     const mon = document.createElement('p');
     mon.innerHTML = 'Monday: 11am - 9pm';
     const tues = document.createElement('p');
@@ -37,10 +37,10 @@ export default function loadup() {
     location.appendChild(addy);
     image.src = "../src/images/watermelon.jpg";
     image.alt = "image of a watermelon";
-    heading.innerHTML = "The watermelon restaurant";
+    heading.innerHTML = "The Watermelon Restaurant";
     text.innerHTML = "The watermelon restaurant hosts a menu of dishes focused on the natural taste of watermelon, and showcases the creativity of our chefs in making many different dishes from the fruit.";
-    div.appendChild(image);
     div.appendChild(heading);
+    div.appendChild(image);
     div.appendChild(text);
     div.appendChild(opening);
     div.appendChild(location);
