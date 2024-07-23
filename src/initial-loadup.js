@@ -38,7 +38,7 @@ export default function loadup() {
     image.src = "../src/images/watermelonlogo.png";
     image.alt = "image of a watermelon";
     heading.innerHTML = "The Watermelon Restaurant";
-    text.innerHTML = "The watermelon restaurant hosts a menu of dishes focused on the natural taste of watermelon, and showcases the creativity of our chefs in making many different dishes from the fruit.";
+    text.innerHTML = "The Watermelon Restaurant hosts a menu of dishes focused on the natural taste of watermelon, and showcases the creativity of our chefs in making many different dishes from the fruit.";
     div.appendChild(heading);
     div.appendChild(image);
     div.appendChild(text);

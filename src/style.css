@@ -20,8 +20,15 @@ body {
     text-align: center;
 }
 
+#content > p {
+    font-size: 1.5em;
+    margin: 0 10%;
+}
+
 img {
     width: 100px;
+    position: relative;
+    top: -20px;
 }
 
 #content > h1 {
@@ -30,14 +37,15 @@ img {
 
 #content > div {
     outline: 5px rgb(190, 24, 24) solid; border-radius: 30%;
+    background-color: rgb(206, 81, 81);
     padding: 3% 10%;
     margin: 5%;
 }
 
-#menuTitle {
+#content > #menuTitle {
     font-size: 2.5em;
     font-weight: bold;
-    background-color: rgb(206, 81, 81);
+    background-color: rgb(155, 55, 55);
 }
 
 #menuTitle + div {
